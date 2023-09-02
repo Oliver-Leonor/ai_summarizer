@@ -2,13 +2,13 @@ import { logo } from '../assets';
 
 const Hero = () => {
   return (
-    <header className='w-full flex justify-center items-center flex-col'>
-      <nav className='flex justify-between items-center w-full mb-10 pt-3'>
-        <img src={logo} alt='sumz_logo' className='w-28 object-contain' />
+    <header className='flex flex-col items-center justify-center w-full'>
+      <nav className='flex items-center justify-between w-full pt-3 mb-10'>
+        <img src={logo} alt='sumz_logo' className='object-contain w-28' />
 
         <button
           type='button'
-          onClick={() => window.open('https://github.com/Oliver-Leonor')}
+          onClick={() => window.open('https://github.com/Oliver-Leonor/ai_summarizer')}
           className='black_btn'
         >
           Github
